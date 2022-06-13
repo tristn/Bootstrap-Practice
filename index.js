@@ -1,7 +1,12 @@
 $(document).ready(function () {
-  console.log('ready!');
-  $('button').html('Click Me');
+  $('button').html('Click me to reveal hidden text!');
   $('button').on('click', function (event) {
-    $('h1').toggleClass('cswitch');
+    $('#hidden').toggleClass('surpriseColor');
   });
+  // $('p').click(function () {
+  //   $('p').hide();
+  // });
+  // $('h2').click(function () {
+  //   $('h1').css('background-color', 'black');
+  // });
 });
